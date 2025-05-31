@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors())
 connectDB();
 app.use(cors({
-  origin: 'https://habit-tracking-frontend.onrender.com/*',
+  origin: 'https://habit-tracking-frontend.onrender.com',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
 }));
 
